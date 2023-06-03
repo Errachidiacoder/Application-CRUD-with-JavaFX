@@ -1,0 +1,32 @@
+Titre: Application de gestion des inscriptions pour les étudiants(CRUD)
+
+Introduction:
+L'application de gestion des inscriptions pour les étudiants est un programme développé en JavaFX qui permet de gérer les informations des étudiants, telles que leur nom, prénom, adresse email, adresse physique et numéro de téléphone. 
+Cette application offre les fonctionnalités suivantes : ajouter un étudiant, modifier les informations d'un étudiant existant, supprimer un étudiant , afficher le profil d'un étudiant et l'imprimer.
+
+Description de l'interface utilisateur:
+L'interface utilisateur de l'application est basée sur une fenêtre principale contenant une table affichant les étudiants enregistrés. La table est constituée de plusieurs colonnes représentant les différentes informations des étudiants, telles que le nom, le prénom, l'email, l'adresse et le numéro de téléphone. 
+L'interface comprend également des boutons permettant d'effectuer des actions sur les étudiants, tels que l'ajout, la modification, la suppression et l'affichage du profil.
+
+Fonctionnalités de l'application:
+
+Ajouter un étudiant:
+Lorsque l'utilisateur clique sur le bouton "Ajouter", une nouvelle fenêtre s'ouvre où il peut saisir les informations d'un nouvel étudiant, telles que le nom, le prénom, l'email, l'adresse et le numéro de téléphone. Une fois les informations saisies, l'étudiant est ajouté à la base de données et la table des étudiants est mise à jour.
+
+Modifier un étudiant:
+Pour modifier les informations d'un étudiant existant, l'utilisateur doit d'abord sélectionner un étudiant dans la table. Ensuite, en cliquant sur le bouton "Modifier", une nouvelle fenêtre apparaît avec les informations actuelles de l'étudiant pré-remplies dans les champs de texte. 
+L'utilisateur peut alors modifier les informations et cliquer sur le bouton "Modifier" pour enregistrer les modifications dans la base de données.
+
+Supprimer un étudiant:
+Pour supprimer un étudiant, l'utilisateur doit sélectionner l'étudiant dans la table et cliquer sur le bouton "Supprimer". Une boîte de dialogue de confirmation apparaît pour demander à l'utilisateur de confirmer la suppression. Si l'utilisateur confirme, l'étudiant est supprimé de la base de données et la table des étudiants est mise à jour.
+
+Afficher le profil d'un étudiant:
+En sélectionnant un étudiant dans la table et en cliquant sur le bouton "Voir profil", une nouvelle fenêtre s'ouvre affichant les informations détaillées de l'étudiant, telles que le nom, le prénom, l'email, l'adresse et le numéro de téléphone. Cette fenêtre offre également la possibilité d'imprimer la fiche récapitulative de l'étudiant.
+
+Utilisation de la base de données:
+L'application utilise une base de données MySQL pour stocker les informations des étudiants. Les informations sont récupérées à partir de la base de données lors du chargement de l'application et sont également mises à jour en temps réel lors des opérations d'ajout, de modification et de suppression des étudiants.
+
+Conclusion:
+L'application de gestion des inscriptions pour les étudiants est un outil pratique pour gérer les informations des étudiants de manière efficace. Elle offre des fonctionnalités simples mais essentielles telles que l'ajout, la modification, la suppression et l'affichage des profils des étudiants. 
+L'utilisation de JavaFX et MySQL permet une interface utilisateur conviviale et une gestion fiable des données. 
+Cette application peut être utilisée dans différents contextes, tels que les établissements scolaires, les universités et les centres de formation, pour faciliter la gestion des inscriptions des étudiants.
