@@ -1,0 +1,38 @@
+.button-custom {
+    -fx-background-color:#0000FF; /* Remplacez cette valeur par la couleur souhaitée */
+    -fx-text-fill: #ffffff; /* Remplacez cette valeur par la couleur du texte souhaitée */
+    -fx-font-size: 14px; /* Remplacez cette valeur par la taille de police souhaitée */
+}
+.label-titre{
+	-fx-font-weight: bold;
+}
+/* Style pour le TableView */
+.table-view-custom {
+    -fx-background-color: #f2f2f2;
+}
+
+/* Style pour l'en-tête de colonne */
+.table-view-custom .column-header {
+    -fx-background-color: #ADD8E6;
+    -fx-text-fill: #ffffff;
+}
+
+/* Style pour les cellules */
+.table-view-custom .table-cell {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #333333;
+}
+
+/* Style pour la sélection de la ligne */
+.table-view-custom .table-row-cell:selected {
+    -fx-background-color: #4169E1; /* Bleu roi */
+    -fx-text-fill: white;
+}
+
+/* Style pour la sélection de l'en-tête de colonne */
+.table-view-custom .column-header .label:selected {
+    -fx-background-color: #4169E1; /* Bleu roi */
+    -fx-text-fill: white;
+}
+
+ 
