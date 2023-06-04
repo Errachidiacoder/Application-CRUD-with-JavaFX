@@ -1,7 +1,7 @@
 .button-custom {
-    -fx-background-color:#0000FF; /* Remplacez cette valeur par la couleur souhaitée */
-    -fx-text-fill: #ffffff; /* Remplacez cette valeur par la couleur du texte souhaitée */
-    -fx-font-size: 14px; /* Remplacez cette valeur par la taille de police souhaitée */
+    -fx-background-color:#0000FF; 
+    -fx-text-fill: #ffffff; 
+    -fx-font-size: 14px; 
 }
 .label-titre{
 	-fx-font-weight: bold;
